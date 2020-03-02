@@ -76,6 +76,7 @@ a {
     background: #f7c08f;
     color: black;
     border-radius: 30px;
+    border-radius: 1.5em;
 }
 .btn-light{
     background: #f4f4f4;
