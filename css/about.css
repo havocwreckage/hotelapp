@@ -28,6 +28,12 @@
 #home-info .info-img{
     float: left;
     width: 50%;
-    background: url(../img/coffee.jpg) no-repeat center center/cover;
+    background: url(../img/person-1.jpg) no-repeat center center/cover;
+    min-height: 100%;
+}
+#home-info .info-img2{
+    float: right;
+    width: 50%;
+    background: url(../img/person-2.jpg) no-repeat center center/cover;
     min-height: 100%;
 }
