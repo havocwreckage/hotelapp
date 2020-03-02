@@ -25,17 +25,14 @@
   .form-inner {
     padding: 30px;
   }
-  h1 {
+   .form-container h1 {
     font-weight: normal;
     padding: 20px;
     color: #fff;
     text-align: center;
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.7);
   }
-  .input_holder {
-    position: relative;
-    margin-bottom: 25px;
-  }
+ 
   .input-text,
   textarea {
     width: 100%;
@@ -67,3 +64,10 @@
     background: transparent;
     color: #fff;
   }
+  .bg-light{
+    background: #333333;
+    color: #fff;
+  }
+    .bg-light p {
+     padding:30px;
+    }
