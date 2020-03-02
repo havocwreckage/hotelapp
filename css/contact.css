@@ -1,0 +1,69 @@
+.top_Container {
+    background-image: url(../img/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    text-align: center;
+    height: 1200px;
+    font-family: sans-serif;
+  }
+  
+  /* hero end */
+  
+  .form-container {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.9);
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    bottom: 50%;
+    left: 40%;
+  }
+  .form-inner {
+    padding: 30px;
+  }
+  h1 {
+    font-weight: normal;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.7);
+  }
+  .input_holder {
+    position: relative;
+    margin-bottom: 25px;
+  }
+  .input-text,
+  textarea {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+  }
+  textarea {
+    min-height: 160px;
+    padding: 15px 0;
+  }
+  
+  .label {
+    pointer-events: none;
+    transition: 2s ease all;
+    font-size: 16px;
+    color: #fff;
+    top: 10px;
+  }
+  button {
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.7);
+    border: none;
+    font-size: 16px;
+    background: transparent;
+    color: #fff;
+  }
