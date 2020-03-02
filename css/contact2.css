@@ -1,0 +1,166 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Utility class */
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.text-primary{
+color: pink;
+}
+
+.lead{
+    font-size: 20px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 1.5em;
+}
+
+.btn:hover{
+    background: pink;
+    color: #333;
+    border-radius: 1.5em;
+
+}
+
+.btn-light{
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
+.clr{
+clear: both;
+}
+
+.l-heading{
+    font-size: 40px;
+}
+/* Padding */
+.py-1{
+    padding: 10px 0;
+}
+
+.py-2{
+    padding: 20px 0;
+}
+
+.py-3{
+    padding: 30px 0;
+}
+
+/* Main Styling */
+ html, body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+#navbar{
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+/* Creating a active class */
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background: #444;
+    color: pink;
+}
+
+/* forms */
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+
+#contact-form textarea{
+    height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus{
+    outline: none;
+    border-color: pink;
+}
+
+/* Features */
+.box{
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+}
+
+.bg-light{
+    background: black;
+    color: pink;
+}
+
+.bg-light p{
+    padding: 30px;
+}
+
+
+/* Footer */
+#main-footer{
+    text-align: center;
+    background: #444;
+    color: pink;
+}
